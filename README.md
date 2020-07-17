@@ -95,7 +95,7 @@ Two letter US state abbreviation.
 
 Categorical variable.
 
-Three letter country code.
+Three letter country code.  Currently limited to the United States of America and Brazil.
 
 #### `exposure`
 
@@ -154,11 +154,6 @@ Response to question: "Do you exercise regularly? (more than 30 min 3x/week)"
 
 Rows in the daily table represent daily survey responses unique to a given day
 and individual.
-
-The format of the daily survey changed slightly starting 2020-04-24.  The list
-of questions along with branching logic is given by the two files,
-`beat19_v1_daily_dict.csv` and `beat19_v2_daily_dict.csv` for surveys
-distributed before and after April 24, respectively.
 
 The daily survey has numerous gating questions, answers to which are denoted in
 the table as fields containing the substring `_prompt`.  These are always
@@ -522,8 +517,7 @@ Likert scale variable.
 Likert scale variable.
 
 "What was the SEVERITY of your COUGH at its worst?"
-
-#### `sym_resp_wet`
+#### `sym_resp_wetdry`
 
 Binary variable.
 
@@ -531,8 +525,17 @@ Binary variable.
 
 Responses of "Not applicable" were coded as missing.
 
-* 1 => Wet
-* 0 => Dry
+#### `sym_resp_wet`
+
+Binary variable.
+
+Responded WET to "Was your cough WET or DRY?"
+
+#### `sym_resp_dry`
+
+Binary variable.
+
+Responded DRY to "Was your cough WET or DRY?"
 
 #### `sym_resp_bloody`
 
