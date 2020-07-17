@@ -1,5 +1,7 @@
 # BEAT19 public data repository
 
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3791646.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.3791646.svg)
+
 There are two sources of data:
 
 1. Enrollment surveys
