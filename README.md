@@ -1,6 +1,6 @@
 # BEAT19 public data repository
 
-[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3791646.svg)](https://zenodo.org/badge/doi/10.5281/zenodo.3791646.svg)
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.3791646.svg)](http://doi.org/10.5281/zenodo.3950339)
 
 There are two sources of data:
 
